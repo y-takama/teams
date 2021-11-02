@@ -7,7 +7,7 @@
 }
 
 .card {
-  border: 2px solid var(--color-light);
+  border: 1px solid var(--color-light);
 }
 
 img {
@@ -32,7 +32,7 @@ img {
   position: sticky;
   z-index: 111;
   background-color: var(--color-sub);
-  padding: 1.5rem 0;
+  padding: 1.0rem 0;
 }
 
 .header > .container {
@@ -337,6 +337,14 @@ img {
   font-size: 2.8rem;
   font-weight: 700;
   margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.dev__name_english {
+  color: var(--color-sub);
+  font-size: 1.9rem;
+  font-weight: 600;
+  
   margin-bottom: 0.5rem;
 }
 

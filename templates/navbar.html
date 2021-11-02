@@ -4,22 +4,21 @@
 <!-- Header Section -->
 <header class="header">
     <div class="container container--narrow">
-      <a href="{% url 'projects' %}" class="header__logo">
-        <img src="{% static 'images/icon.png' %}" alt="DevSearch Logo" />
-      </a>
-      <nav class="header__nav">
-        <input type="checkbox" id="responsive-menu" />
-        <label for="responsive-menu" class="toggle-menu">
-          <span>Menu</span>
-          <div class="toggle-menu__lines"></div>
-        </label>
-        <ul class="header__menu">
-          <li class="header__menuItem"><a href="{% url 'profiles' %}">Developers</a></li>
-          <li class="header__menuItem"><a href="{% url 'projects' %}">Projects</a></li>
-          <li class="header__menuItem"><a href="">Inbox</a></li>
-          <li class="header__menuItem"><a href="{% url 'create-project' %}">Add Project</a></li>
-          <li class="header__menuItem"><a href="login.html" class="btn btn--sub">Login/Sign Up</a></li>
-        </ul>
-      </nav>
+        <a href="{% url 'projects' %}" class="header__logo">
+        </a>
+        <nav class="header__nav">
+            <input type="checkbox" id="responsive-menu" />
+            <label for="responsive-menu" class="toggle-menu">
+                <span>Menu</span>
+                <div class="toggle-menu__lines"></div>
+            </label>
+            <ul class="header__menu">
+                <li class="header__menuItem"><a href="{% url 'profiles' %}">プロフィール</a></li>
+                <li class="header__menuItem"><a href="{% url 'projects' %}">プロジェクト</a></li>
+                <li class="header__menuItem"><a href="">Inbox</a></li>
+                <li class="header__menuItem"><a href="{% url 'create-project' %}">Add Project</a></li>
+                <li class="header__menuItem"><img class="avatar avatar--sm" src="https://avatars.githubusercontent.com/u/33843378" /></li>
+            </ul>
+        </nav>
     </div>
-  </header>
+</header>

@@ -242,7 +242,7 @@ fieldset.collapsed .collapse-toggle {
 /* MONOSPACE TEXTAREAS */
 
 fieldset.monospace textarea {
-    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+    font-family: "游明朝", Monaco, "Courier New", Courier, monospace;
 }
 
 /* SUBMIT ROW */

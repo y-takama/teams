@@ -1,5 +1,5 @@
 :root {
-  --color-sub: #2d2d39;
+  --color-sub: #ffffff;
 }
 
 .btn--sub {
@@ -393,6 +393,10 @@ img {
 
 .devSkill {
   margin-bottom: 3rem;
+}
+
+.Qualificaions {
+  margin-bottom: 1rem;
 }
 
 .devSkill__title {
